@@ -1,0 +1,29 @@
+body{
+  background-color: lightgreen;
+  margin: 30px 60px 30px 60px;
+}
+
+h1{
+  font-size: 100px;
+}
+
+.my-title{
+  font-weight: bold;
+}
+
+table{
+  margin: 0 25vw 0 25vw;
+}
+
+img{
+  width: 400px;
+  height: 300px;
+}
+
+.bigger{
+  width: 700px;
+  padding-top: 0;
+  padding-right: 5%;
+  padding-bottom: 0;
+  padding-left: 5%;
+}
