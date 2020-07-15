@@ -1,5 +1,5 @@
 body{
-  background-image: linear-gradient(white, lightgreen);
+  background-image: linear-gradient(white, lightcyan);
 }
 
 .list{
@@ -8,4 +8,8 @@ body{
 
 .vertical-align{
   margin: 20% 0 5% 0;
+}
+
+.description {
+  margin-top: 60px;
 }
