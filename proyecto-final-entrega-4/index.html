@@ -44,8 +44,48 @@
       <hr>
       <h2>Segundo Prototipo:</h2>
       <br>
-      <!-- Segundo prototipo (Figma?) -->
+      <div class="protoio-embed-prototype" data-code="5VPY40" data-show-sidebuttons="0" style="width: 100%; height: 800px;"></div>
+      <script async src="https://static.proto.io/api/widget-embed.js"></script>
+      <br><br>
+      <hr>
+      <h2>Capturas de Pantalla:</h2>
       <br>
+      <div class="row">
+        <div class="col">
+          <img class="proto-ss materialboxed" src="./assets/screen1.png" alt="Phone Menu">
+        </div>
+        <div class="col">
+          <img class="proto-ss materialboxed" src="./assets/screen2.png" alt="Phone Menu">
+        </div>
+        <div class="col">
+          <img class="proto-ss materialboxed" src="./assets/screen3.png" alt="Phone Menu">
+        </div>
+        <div class="col">
+          <img class="proto-ss materialboxed" src="./assets/screen4.png" alt="Phone Menu">
+        </div>
+        <div class="col">
+          <img class="proto-ss materialboxed" src="./assets/screen5.png" alt="Phone Menu">
+        </div>
+      </div>
+      <br>
+      <div class="row">
+        <div class="col">
+          <img class="proto-ss materialboxed" src="./assets/screen6.png" alt="Phone Menu">
+        </div>
+        <div class="col">
+          <img class="proto-ss materialboxed" src="./assets/screen7.png" alt="Phone Menu">
+        </div>
+        <div class="col">
+          <img class="proto-ss materialboxed" src="./assets/screen8.png" alt="Phone Menu">
+        </div>
+        <div class="col">
+          <img class="proto-ss materialboxed" src="./assets/screen9.png" alt="Phone Menu">
+        </div>
+        <div class="col">
+          <img class="proto-ss materialboxed" src="./assets/screen10.png" alt="Phone Menu">
+        </div>
+      </div>
+      <br><br>
       <hr>
       <h2>Retroalimentación de Usuarios Potenciales</h2>
       <br>
@@ -58,12 +98,13 @@
         </thead>
         <tbody>
           <tr>
-            <!-- <td>Jugar</td> -->
-            <!-- <td>Al abrir la aplicación, el usuario decide crear una nueva "partida" para poder empezar a disfrutar del juego. Los personajes son presentados, y llega el momento de escoger el tuyo de un repertorio de seis Pelifrutis únicos.</td> -->
+            <td><i>Lorena Flotte <br> (hija de 5 años)</i></td>
+            <td class="text-justify">La aplicación es fácil de utilizar, aún para niños pequeños. Los dibujos de los personajes son adecuados para llamar la atención de los niños. Lo único que falta trabajar es dinámicas más
+              intuitivas que no involucren actividades que sean complicadas de descifrar por parte de los niños (ej. no sabía que había más árboles a la derecha).</td>
           </tr>
           <tr>
-            <!-- <td>Jugar con amigos (multijugador)</td> -->
-            <!-- <td>Al igual que jugar solo, el usuario también tndrá la posibilidad de jugar de forma colaborativa o "en campaña" con otros usuarios de la aplicación siempre y cuando sean antes usuarios aprobados. Los puntos ganados en la partida se distribuirán entre los jugadores de acuerdo a su aporte en el mismo.</td> -->
+            <td><i>Nombre</i></td>
+            <td class="text-justify">Texto</td>
           </tr>
         </tbody>
       </table>
@@ -80,12 +121,13 @@
         </thead>
         <tbody>
           <tr>
-            <!-- <td>Jugar</td> -->
-            <!-- <td>Al abrir la aplicación, el usuario decide crear una nueva "partida" para poder empezar a disfrutar del juego. Los personajes son presentados, y llega el momento de escoger el tuyo de un repertorio de seis Pelifrutis únicos.</td> -->
+            <td><i>Mauricio Alcérreca</i></td>
+            <td class="text-justify">Le gusta el prototipo, y piensa que los dibujos animados son muy buenos. Argumenta que las dinámicas todavía están en etapa temprana y que no dan el mensaje que queremos todavía, pero que con el desarrollo se
+              arregla. Cree controles son sencillos, ideales para niños de corta edad.</td>
           </tr>
           <tr>
-            <!-- <td>Jugar con amigos (multijugador)</td> -->
-            <!-- <td>Al igual que jugar solo, el usuario también tndrá la posibilidad de jugar de forma colaborativa o "en campaña" con otros usuarios de la aplicación siempre y cuando sean antes usuarios aprobados. Los puntos ganados en la partida se distribuirán entre los jugadores de acuerdo a su aporte en el mismo.</td> -->
+            <td><i>Nombre</i></td>
+            <td class="text-justify">Texto</td>
           </tr>
         </tbody>
       </table>
@@ -93,13 +135,31 @@
       <hr>
       <h2>Seguimiento de Leyes de Diseño:</h2>
       <br>
-      <!-- <p></p> -->
+      <div class="row">
+        <div class="col-md-12">
+          <img class="proto-ss" src="https://lawsofux.com/images/social_1200.jpg" alt="">
+        </div>
+      </div>
+      <br>
+      <div class="row">
+        <div class="col-md-12">
+          <p>Texto</p>
+        </div>
+      </div>
       <br><br>
       <hr>
       <br>
     </div>
   </div>
   <!-- Optional JavaScript -->
+  <script type="text/javascript">
+    document.addEventListener('DOMContentLoaded', function() {
+      var elems = document.querySelectorAll('.materialboxed');
+      var instances = M.Materialbox.init(elems);
+    });
+  </script>
+  <!--Used for image zoom-->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js" type="text/javascript"></script>
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
